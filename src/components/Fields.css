@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.list li {
+  padding: 4px;
+  margin: 2px 0;
+}
+.list li:hover {
+  background: rgba(100, 100, 100, 0.2);
+}
+label.has-input input {
+  margin-right: 5px;
+}

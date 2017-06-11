@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StatsGraph from './components/StatsGraph';
+import Page from './components/Page';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
         <div className="App-header">
           <h2>India's 5 Year Plans analysis</h2>
         </div>
-        <StatsGraph />
+        <Page />
       </div>
     );
   }

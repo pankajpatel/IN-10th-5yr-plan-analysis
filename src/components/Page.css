@@ -1,0 +1,21 @@
+.row {
+  width: 100%;
+}
+.col-1-of-3,
+.col-2-of-3 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  float: left;
+}
+.col-1-of-3 {
+  width: 33.33%;
+}
+.col-2-of-3 {
+  width: 66.66%;
+}
+
+select {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+}
